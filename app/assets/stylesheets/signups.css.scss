@@ -1,0 +1,21 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup {
+  background: URL("https://stories-rails.herokuapp.com/assets/contact-main-9fb04617516938f849971735fed62270.jpg") center center;
+  background-size: cover;
+  color: white;
+  height: 700px;
+}
+
+.form-control {
+  width: 100%;
+  border-radius: 0;
+  opacity: 0.8;
+  height: 40px;
+}

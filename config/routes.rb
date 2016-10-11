@@ -2,6 +2,12 @@ Rails.application.routes.draw do
   
   root 'pages#home', as: :home
   get '/about' => 'pages#about', as: :about
+  get '/thanks' => 'pages#thanks'
+  
+  get '/signups/new' => 'signups#new', as: :signup
+  post 'signup' => 'signups#create'
+  
+  resources :signups
   
   
   
